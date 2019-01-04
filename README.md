@@ -5,11 +5,11 @@ Various experiments have been run:
 1. Data Augmentation  
 2. Guided Backpropagation
 3. Fooling the network  
-4. Experimenting with Xavier/He initialisations
+4. Experimenting with Xavier/He initialisation
 5. Early stopping  
 6. Batch Normalisation  
 
-The results of the above experiments can be found [here]().
+The results of the above experiments can be found [here](https://github.com/shubhangighosh/CNN-Experiments-on-Fashion-MNIST/blob/master/Report.pdf).
 
 ##############################################################################  
 USAGE  
