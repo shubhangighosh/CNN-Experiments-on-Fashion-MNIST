@@ -1,61 +1,48 @@
-# CNN-Experiments-on-Fashion-MNIST  
-Convolutional Neural networks have been trained on the Fashion MNIST dataset and various experiments have been run.  
-
-Various experiments have been run:  
-1. Data Augmentation  
-2. Guided Backpropagation
-3. Fooling the network  
-4. Experimenting with Xavier/He initialisations
-5. Early stopping  
-6. Batch Normalisation  
-
-The results of the above experiments can be found [here]().
-
-##############################################################################  
-USAGE  
-##############################################################################  
-#  
-1.   
-To run the basic model described in the problem statement :   
-"python train.py"  
-#  
-2.  
-To run the best performing model described in the report :   
-"python train_best_model.py"  
-OR  
-"./run.sh"  
-(This can only be run with augmented data, that is, run Step 4 first.)  
-#  
-3.  
-To run either model with optional custom parameters :  
-python train.py/train_best_model.py -lr <learing_rate> -batch_size <mini_batch_size> -init <0/1/2> -save_dir <directory_to_save_model>   
-#  
-4.  
-To produce augmented data using imgaug :  
-"python augmentation_ia.py"  
-#  
-5.
-To visualize guided backprop :   
-"python guided_backprop.py && python visualize_guided.py"  
-#  
-6.  
-To visualize training and validation loss plots :   
-"python train.py/train_best_model.py && python visualize_losses.py"  
-#  
-7.  
-To visualize data - original and augmented :   
-"python visualize_data.py"  
-#  
-8.  
-To visualize conv layer 1 filters :   
-"python train.py/train_best_model.py && python visualize_filters.py"  
-#  
-9.  
-To visualize fooling :   
-"python train.py/train_best_model.py && python visualize_fooling.py"  
-10.  
-Guided Backpropagation :   
-"python guided_backprop.py && python visualize_guided.py"  
+##############################################################################
+USAGE
+##############################################################################
+#
+1. 
+To run the basic model described in the problem statement : 
+"python train.py"
+#
+2.
+To run the best performing model described in the report : 
+"python train_best_model.py"
+OR
+"./run.sh"
+(This can only be run with augmented data, that is, run Step 4 first.)
+#
+3.
+To run either model with optional custom parameters :
+python train.py/train_best_model.py -lr <learing_rate> -batch_size <mini_batch_size> -init <0/1/2> -save_dir <directory_to_save_model> 
+#
+4.
+To produce augmented data using imgaug :
+"python augmentation_ia.py"
+#
+5. 
+To visualize guided backprop : 
+"python guided_backprop.py && python visualize_guided.py"
+#
+6.
+To visualize training and validation loss plots : 
+"python train.py/train_best_model.py && python visualize_losses.py"
+#
+7.
+To visualize data - original and augmented : 
+"python visualize_data.py"
+#
+8.
+To visualize conv layer 1 filters : 
+"python train.py/train_best_model.py && python visualize_filters.py"
+#
+9.
+To visualize fooling : 
+"python train.py/train_best_model.py && python visualize_fooling.py"
+10.
+Guided Backpropagation : 
+"python guided_backprop.py && python visualize_guided.py"
 
 
 
@@ -101,7 +88,6 @@ gb.csv - Gradients of 10 neurons in the final convolutional layer withr respect 
 #
 #
 Kaggle_subs - Folder contains all the kaggle submissions numbered in chronological order(Highest number is the latest submission)
-
 
 
 
